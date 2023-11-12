@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "My Local MySQL",
+            "server": "127.0.0.1",
+            "port": 3306,
+            "database": "shop",
+            "username": "root",
+            "password": "",
+            "driver": "mysql"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "MastermindDB",
+            "database": "${workspaceFolder:poe_bot}/data/mastermind.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
+}
